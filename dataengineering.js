@@ -3,10 +3,18 @@ document.addEventListener("DOMContentLoaded", function() {
     const readMoreButtons = document.querySelectorAll(".read-more");
 
     readMoreButtons.forEach(button => {
+
+        const details = button.nextElementSibling;
+        details.style.display = "none"; // Ensure it's initially hidden
+        
         button.addEventListener("click", function(e) {
             e.preventDefault();
-            const details = button.nextElementSibling;
-            details.classList.toggle("hidden");
+           
+            if (details.style.display === "none") {
+                details.style.display = "block";
+            } else {
+                details.style.display = "none";
+            }
         });
     });
 });
