@@ -16,6 +16,15 @@ header {
     padding: 20px;
 }
 
+header h1{
+    text-align: center;
+}
+
+header p{
+    margin-top: 2rem;
+    text-align: left;
+}
+
 #services {
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +81,6 @@ header {
 
 .service .details {
     margin-top: 10px;
-    display: none;
 }
 /* Rest of the CSS remains the same as in the previous examples */
 
@@ -84,6 +92,19 @@ header {
 
 #why-choose-us h2 {
     margin-bottom: 20px;
+}
+
+.why-us-main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.why-us-sub-container1{
+    display: flex;
+}
+
+.why-us-sub-container2{
+    display: flex;
 }
 
 .benefit {
