@@ -102,7 +102,7 @@
   display: flex;
   margin-top: 0px;
   margin-right: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-left: 0px;
 }
 
@@ -207,6 +207,12 @@
   cursor: pointer;
 }
 
+.contact-header{
+    padding: 2rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
 .contact_us_green .btn-wrapper {
   display: flex;
   justify-content: center;
