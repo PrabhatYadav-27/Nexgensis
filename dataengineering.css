@@ -22,7 +22,7 @@ header h1{
 
 header p{
     margin-top: 2rem;
-    text-align: left;
+    text-align: center;
 }
 
 #services {
@@ -61,18 +61,21 @@ header p{
 }
 
 .short-description {
-    max-height: 3em;
+    max-height: 3.5em;
     overflow: hidden;
 }
 
 .service .read-more {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: #333;
     color: #fff;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 5px;
     text-decoration: none;
+
+    border: 2px solid green;
+    
 }
 
 .service .read-more:hover {
